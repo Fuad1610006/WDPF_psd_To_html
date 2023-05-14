@@ -1,0 +1,114 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.header{
+  margin-top: 5px;
+  color: rgb(21, 107, 32);
+}
+.bg-theme{
+  background-color:  #280000;
+}
+.navbar{
+  padding: 10px 0;
+  background-color:  #280000;
+  color: white;
+}
+.navbar-nav{
+  float: right;
+  text-align: right;
+}
+
+.nav-item:hover{
+  background-color: #008000;
+  border-radius: 5px;
+}
+#home{
+  background-color: #280000;
+  position: relative;
+}
+.carousel-inner text{
+ display: block;
+align-items: center;
+text-align: justify;
+}
+.carousel-text{
+  box-sizing: border-box;
+}
+.carousel-text button{
+  background-color: green;
+}
+
+/* services section css */
+
+.s_card{
+  display: inline-block;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+.Inner{
+  background-color:  #650000;
+  color: #303030;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover{
+  color: #008000;
+}
+.s_card:hover{
+  background-color:#008000!important;
+  color: #fff;
+}
+#latest{
+  background-color: #650000;
+  align-items: center;
+  text-align: center;
+}
+#b_pill{
+  padding: auto;
+  background-color: #2B2B2B;
+  border-radius: 3px;
+}
+#latest img{
+  display: inline-block;
+}
+.img-thumbnail:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border: 7px solid #008000;
+}
+
+/* footer section starts */
+
+.footer{
+  background-color: #303030;
+  padding: 12px 0;
+}
+.ql{
+  background-color: #303030;
+  list-style: none;
+  text-decoration: none;
+}
+.copy{
+  background-color: #2B2B2B;
+}
+.form-control{
+  background-color: #2B2B2B;
+}
+.bg-footer{
+  background-color: #2B2B2B;
+}
+.footer-list{
+  background-color: #303030;
+}
+.footer-anc{
+  color: #008000;
+  text-decoration: none;
+}
+.tweet{
+  color: #008000;
+}
